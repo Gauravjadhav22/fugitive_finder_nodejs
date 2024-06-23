@@ -7,7 +7,7 @@ import { getResult, getSelections, postSelections, resetResult } from "./control
 dotenv.config();
 
 // Initialize the app
-const app = express();
+export const app = express();
 const port = process.env.PORT || 5550;
 
 // Middleware
